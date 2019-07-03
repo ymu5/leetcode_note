@@ -1,0 +1,11 @@
+Leetcode Question 5: Longest Palindromic Substring
+Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
+
+Possible Solution:
+1, reverse the string and compare it with the original string so that we can find the longest substring which may be the answer.
+However, considering the example:S = “abacdfgdcaba”; S=“abacdfgdcaba”. In this case, the longest substring is 'abacd' which is not a palindromic string.
+Therefore, we need to modify this solution to meet the requirement.
+
+2, Brute-force, but the time complexity may be O(n^3)
+
+3, ExpandAroundCenter...
